@@ -1,0 +1,23 @@
+canvas{
+    border-width:5px;
+    border-radius: 20px;
+    border-style:solid;
+    border-color: cadetblue;
+    animation-name:desenho;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+    margin-top: 50px;
+}
+@keyframes desenho{
+    from{box-shadow: 1px 1px 38px #579482;}
+        to{box-shadow: 1px 1px 38px #745f96}
+}
+body{
+    background-image:url("pink.jpg") ;
+}
+h1{
+    background-color:hotpink;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#exibir{float: right};
